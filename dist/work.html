@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../dist/css/main.css">
+  <script type="text/javascript" src="../dist/js/jquery-3.5.1.js"></script>
+  <title>Mes projets</title>
+
+  <script>
+   function maFonction() {
+  var div = document.getElementById("maDIV");
+  if (div.style.display === "none") {
+    div.style.display = "block";
+  } else {
+    div.style.display = "none";
+  }
+}
+function maFonction2() {
+  var div = document.getElementById("maDIV2");
+  if (div.style.display === "none") {
+    div.style.display = "block";
+  } else {
+    div.style.display = "none";
+  }
+}
+function maFonction3() {
+  var div = document.getElementById("maDIV3");
+  if (div.style.display === "none") {
+    div.style.display = "block";
+  } else {
+    div.style.display = "none";
+  }
+}
+function maFonction5() {
+  var div = document.getElementById("maDIV5");
+  if (div.style.display === "none") {
+    div.style.display = "block";
+  } else {
+    div.style.display = "none";
+  }
+}
+  </script>
+</head>
+
+<body>
+  <header>
+    <div class="menu-btn">
+      <!-- Le menu en haut a droite -->
+      <div class="btn-line"></div>
+      <div class="btn-line"></div>
+      <div class="btn-line"></div>
+    </div>
+
+    <nav class="menu">
+      <div class="menu-branding">
+        <div class="portrait"></div>
+      </div>
+      <ul class="menu-nav">
+        <li class="nav-item">
+          <a href="../dist/index.html" class="nav-link">
+            Accueil
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="../dist/about.html" class="nav-link">
+            A propos de moi
+          </a>
+        </li>
+        <li class="nav-item current">
+          <a href="../dist/work.html" class="nav-link">
+            Mes projets
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="../dist/MesStages.html" class="nav-link">
+            Mes stages
+          </a>
+        </li>
+      </ul>
+    </nav>   
+  </header>
+
+  <main id="work">
+    <h1 class="lg-heading">
+     Mes
+      <span class="text-secondary">Projets</span>
+    </h1>
+    <h2 class="sm-heading">
+      Mes différents projets
+    </h2>
+
+      <!-- DIV PROJET JAVA  -->
+  <div id="maDIV" style="display:none;">
+     <a href="../dist/work.html"><img class="croix" src="../dist/img/projects/traverser.png" alt="" width="30px"></a> 
+      <p class="titre">PROJET JAVA - GSB</p>
+      <p class="cont">Contexte </p> 
+      <img id="imgJava" src="../dist/img/projects/gsb.png" alt="" width="250px"> 
+      
+      <div id="contexte">
+        <p>
+          GSB est un laboratoire pharmaceutique voulant moderniser l'activité de visite médicale. Ce projet a été réalisé en groupe. Nous nous sommes concentrés sur la fonctionnalité n°2 étant : la gestion des visiteurs.
+          <br>
+          D'un visiteur, on connaît bien entendu son identité ainsi que son matricule dans l’entreprise, on connaît aussi sa date d’embauche et les différentes régions par lesquelles il est passé au cours de sa carrière.
+          <br>
+          Ainsi au cours de ce projet, le client doit pouvoir réaliser les éléments suivants :
+          <br>
+          - Insérer, modifier, lister des régions
+          <br>
+          - Insérer, modifier, lister des visiteurs
+          <br>
+          - Insérer dans quelle(s) région(s) travaille un visiteur
+          <br>
+          - Avoir des statistiques sous forme d’indicateurs (nombres, pourcentages, …).
+          <br>
+          A partir de cette interface nous pouvons ajouter un visiteur,une région,un secteur ou encore lister toutes les régions et les visiteurs.
+        </p>
+      </div>
+      <img id="visiteur" src="../dist/img/projects/visiteur.png" alt="" width="200px">
+      <img id="region" src="../dist/img/projects/region.png" alt="" width="200px">
+      <img id="secteur" src="../dist/img/projects/secteur.png" alt="" width="200px">
+      <p id="desVis">
+          Ici, nous devons renseigner toutes les informations d'un visiteur pour pouvoir l'ajouter en base de données.
+      </p>
+      <p id="desRegion">
+          A partir de cette interface, nous pouvons insérer une région.
+      </p>
+      <p id="desSecteur">
+          Sur ce formulaire, nous pouvons insérer un secteur.
+      </p>
+  </div>
+  
+       <!-- DIV PROJET SYMFONY -->
+
+  <div id="maDIV2" style="display:none;">
+    <a href="../dist/work.html"><img class="croix" src="../dist/img/projects/traverser.png" alt="" width="30px"></a> 
+    <p class="titre">PROJET SYMFONY - GSB</p>
+   <p class="cont">Contexte</p>
+ </div>
+
+    <!-- DIV JEUX JAVASCRIPT -->
+
+  <div id="maDIV3" style="display:none;">
+    <a href="../dist/work.html"><img class="croix" src="../dist/img/projects/traverser.png" alt="" width="30px"></a> 
+    <p class="titre">JEUX - JAVASCRIPT</p>
+    <p id="t">JEUX CONTRE L'ORDINATEUR</p>
+    <div class="descriptionJeux">
+        <br>Ce jeu consiste à renseigner un nombre d'essais puis l'ordinateur choisi aléatoirement un nombre entre 1 et 150.
+        Si nous renseignons un chiffre au dessus ou en dessous de celui de l’ordinateur alors un message apparaitra.
+        A nous de trouver le nombre choisi par l'ordinateur.
+    </div>
+      <br><br>
+      <img id="imgNombre" src="../dist/img/projects/nombre.png" alt="" width="350px">
+      <br> <br>
+    <div id="imgJeux">
+      <img id="imgMemory" src="../dist/img/projects/memory.png" alt="" width="350px" height="200px">
+      <img id="imgMAS" src="../dist/img/projects/MAS.png" alt=""  width="350px" >
+      <img id="imgRapido" src="../dist/img/projects/rapido.png" alt="" width="350px" height="200px">
+    </div> 
+    <p id="t1">MEMORY</p>
+    <p id="pMemory">L'objectif du jeux du Memory est de deviner chaque paire de cartes. Lorsque le joueur a retourné 2 cartes, si ces dernières sont identiques, elles restent visibles sinon on les retourne face cachée. Le jeu s’arrête lorsque toutes les cartes ont été devinées.
+      </p>
+    <p id="t2">MACHINE A SOUS</p>
+    <p id="pMAS">Le jeux de la machine à sous consiste à miser de l'argent et en fonction des règles, on gagne ou on perd. Le joueur possède au départ une cagnotte de 50 euros. Le jeu s’arrête lorsque la cagnotte du joueur est égale à 0.</p>
+    <p id="t3">RAPIDO</p>
+    <p id="pRapido">L’objectif de ce jeu est d’obtenir le plus de chiffres communs entre le joueur et l’ordinateur. Pour cela, on dispose de 2 grilles :
+      La grille A dans laquelle le joueur devra choisir 8 numéros parmis 20
+      La grille B dans laquelle le joueur devra choisir 1 numéro parmis 4
+      </p> 
+  </div> 
+
+   
+
+    <!-- DIV PROJET PRO -->
+
+    <div id="maDIV5" style="display:none;">
+      <a href="../dist/work.html"><img class="croix" src="../dist/img/projects/traverser.png" alt="" width="30px"></a> 
+      <p class="titre">PROJET PROFESSIONNEL</p>
+      <p class="cont">Contexte</p>
+      <!-- Coder la description du projet -->
+    </div>
+
+
+    <div class="projects">
+      <div class="item">
+            <a href="#" >
+              <button class="btnImg" onclick="maFonction()"><img class="img" src="../dist/img/projects/JAVA.jpg" alt="Project" height="200px"></button>
+            </a>
+            
+        <a class="btn-light">
+          <i class="fas fa-eye"></i> PROJET JAVA - GSB
+        </a>
+        <a href="https://github.com/DanTOUATI/ProjetGSB" target="blank" class="btn-dark">
+          <i class="fab fa-github"></i> Accéder au projet
+        </a>
+      </div>
+      <div class="item">
+        <a href="#!">
+          <button class="btnImg" onclick="maFonction2()"><img class="img" src="../dist/img/projects/symfony.png " alt="Project" height="200px"></button>
+        </a>
+        <a href="#" class="btn-light">
+          <i class="fas fa-eye"></i> PROJET SYMFONY - GSB
+        </a>
+        <a href="https://github.com/ort-france/bts-alt-g2-2022" target="blank" class="btn-dark">
+          <i class="fab fa-github"></i> Accéder au projet
+        </a>
+      </div>
+      <div class="item">
+        <a href="#!">
+          <button class="btnImg" onclick="maFonction3()"><img class="img" src="../dist/img/projects/jeux.png" alt="Project" height="200px"></button>
+        </a>
+        <a href="#" class="btn-light">
+          <i class="fas fa-eye"></i>JEUX  JAVASCRIPT
+        </a>
+        <a href="https://github.com/DanTOUATI/Jeux-JAVASCRIPT" target="blank" class="btn-dark">
+          <i class="fab fa-github"></i> Accéder au projet
+        </a>
+      </div>
+      <div class="item">
+        <a href="#!">
+          <button class="btnImg" onclick="maFonction5()"><img class="img" src="../dist/img/projects/fixy.jpeg" alt="Project" height="200px"></button>
+        </a>
+        <a href="#" class="btn-light">
+          <i class="fas fa-eye"></i> PROJET PROFESSIONNEL
+        </a>
+        <a href="#" class="btn-dark">
+          <i class="fab fa-github"></i> Accéder au projet
+        </a>
+      </div>
+    </div>
+    <div id="container1">
+      <div class="boite"></div>
+    </div>
+  </main>
+
+  <script src="../dist/js/main.js"></script>
+</body>
+
+</html>
