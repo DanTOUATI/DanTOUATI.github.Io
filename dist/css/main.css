@@ -998,7 +998,7 @@ top: -220px;
   top: -403px;
   left: 810px;
 }
-#desEFI
+.des
 {
   text-align: center;
 }
@@ -1062,7 +1062,7 @@ top: -220px;
   display: inline-flex;
   padding-left: 10%;
 }
-#ALLIMG{
+#imagesEntreprises{
   margin: auto;
 
 }
@@ -1077,4 +1077,15 @@ top: -220px;
 {
   margin-left: 70%;
   margin-top: -25%;
+}
+#stage2 {
+  text-align: center;
+  background-color: rgba(238, 206, 26, 0.521);
+  width: 100%;
+}    
+#desFixy
+{
+  font-size: 20px;
+  text-align: center;
+  width: 100%;
 }
