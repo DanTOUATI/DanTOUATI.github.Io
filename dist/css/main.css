@@ -1139,3 +1139,60 @@ top: -220px;
   position: relative;
   top: -36px;
 }
+#vuEns
+{
+  text-align: center;
+  width: 300px;
+  margin-left: 77%;
+  position: relative;
+  top: -250px;
+}
+#pageCo
+{
+  margin-left: 10%;
+  margin-right: 8%;
+}
+#pageAc
+{
+  margin-right: 8%;
+}
+#desCo
+{
+  margin-left: 14%;
+}
+#pageAcc
+{
+  margin-left: 45%;
+  position: relative;
+  top: -35px;
+}
+#fichePro
+{
+  margin-left: 75%;
+  position: relative;
+  top: -75px;
+}
+#chat
+{
+  margin-left: 10%;
+  margin-right: 8%;
+}
+#param
+{
+  margin-right: 8%; 
+}
+#chatLigne{
+  margin-left: 16%;
+}
+#desParam
+{
+  margin-left: 43%;
+  position: relative;
+  top: -40px;
+}
+#desPremium
+{
+  margin-left: 72%;
+  position: relative;
+  top: -80px;
+}
