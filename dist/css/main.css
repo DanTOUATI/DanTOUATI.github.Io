@@ -725,7 +725,7 @@ margin-top: 5%;
 #maDIV2  
 {
   width: 1200px;
-  height: 620px;
+  height: 1200px;
   background-color:rgb(128, 128, 128);
   position: absolute;
   left: 5%;
@@ -1088,4 +1088,54 @@ top: -220px;
   font-size: 20px;
   text-align: center;
   width: 100%;
+}
+#co
+{
+  font-size: 20px;
+  margin-left: 75%;
+  position: relative;
+  top: 150px;
+}
+#imgCo
+{
+  margin-left: 5%;
+}
+#desSymf
+{
+  position: relative;
+  top: 50px;
+  margin: auto;
+  width: 800px;
+  text-align: center;
+  font-size: 18px;
+}
+#regionS
+{
+  margin-left: 2%;
+  margin-right: 2%;
+}
+#desReg
+{
+  margin-left: 15%;
+}
+#desLab
+{
+  margin-left: 65%;
+  position: relative;
+  top: -35px;
+}
+#newReg
+{
+  margin-left: 2%;
+  margin-right: 2%;
+}
+#newRegions
+{
+  margin-left: 4%;
+}
+#newLabo
+{
+  margin-left: 51%;
+  position: relative;
+  top: -36px;
 }
