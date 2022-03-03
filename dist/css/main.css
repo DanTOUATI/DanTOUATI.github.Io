@@ -414,7 +414,8 @@ main {
   }
 }
 #btnCV{
-margin-left: 43%;
+margin-left: 33%;
+margin-right: 10% ;
 margin-top: 5%;
 }
 			.timeline2 {
@@ -1018,6 +1019,8 @@ top: -220px;
 #imgPuur
 {
   margin-right: 5%;
+  background-color: white;
+  padding: 5px;
 }
 #desConsulting
 {
@@ -1201,4 +1204,8 @@ margin-left: 35%;
 }
 #btnSt2{
   margin-left: 35%;
+}
+#desEfiGroupe
+{
+  text-align: center;
 }
