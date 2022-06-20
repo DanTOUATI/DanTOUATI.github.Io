@@ -417,6 +417,11 @@ main {
 margin-left: 43%;
 margin-top: 5%;
 }
+@media screen and (min-width: 1000px) {
+  #btnCV{
+    margin-left: auto;
+  }
+}
 			.timeline2 {
 				/* overflow-y: scroll; */
 				overflow-x: hidden;
