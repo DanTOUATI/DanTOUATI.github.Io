@@ -923,18 +923,14 @@ top: -220px;
   width: 100%;
   margin-top: 20%
 }
-#iphone
-{
-  
-}
-#ipad
+/* #ipad
 {
   margin-right: 5%;
 }
 #ipad2
 {
 
-}
+} */
 
 #contexte
 {
@@ -1217,4 +1213,8 @@ margin-left: 35%;
 #desEfiGroupe
 {
   text-align: center;
+}
+.mockup
+{
+  display: flex;
 }
