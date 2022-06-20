@@ -346,7 +346,7 @@ main {
     padding-top: 200px;
     margin-bottom: 5%;
   }
-  @media screen and (min-width: 1000px) {
+  @media screen and (min-width: 1400px) {
     section.mb-4
     {
       display: flex;
