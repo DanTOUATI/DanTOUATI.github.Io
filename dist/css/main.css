@@ -165,7 +165,7 @@ main {
   grid-gap: 30px;
   grid-template-areas: 'bioimage bio bio' 'job1 job2 job3';
   grid-template-columns: repeat(3, 1fr); }
-  .about-info .bio-image {
+  .about-info {
     grid-area: bioimage;
     margin: auto;
     border-radius: 10%;
@@ -322,7 +322,7 @@ main {
     grid-template-columns: repeat(2, 1fr);
     margin-bottom: 5%;
    }
-    .about-info .bio-image {
+    .about-info  {
       grid-area: bioimage;
       margin: auto;
       border-radius: 10%;
