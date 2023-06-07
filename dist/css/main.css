@@ -1218,3 +1218,8 @@ margin-left: 35%;
 {
   display: flex;
 }
+#bioImg
+{
+	width : 80%;
+	border-radius: 10%;
+}
