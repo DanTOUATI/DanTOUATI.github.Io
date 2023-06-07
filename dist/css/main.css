@@ -56,10 +56,12 @@
     .menu-branding.show {
       transform: translate3d(0, 0, 0); }
     .menu-branding .portrait {
-      width: 250px;
-      height: 250px;
-      background: url("../img/moi.jpg");
-      border-radius: 10%;
+	    width: 260px;
+	    height: 260px;
+	    background: url(../img/moi.jpg);
+	    background-size: cover;
+	    background-position-y: center;
+	    border-radius: 10%;
      }
       
   .menu .nav-item {
